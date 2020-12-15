@@ -1,7 +1,7 @@
-# [Display Ads (Auction)]Parameters for impression tracking
+# [Display Ads]Parameters for impression tracking
 By setting the impression beacon URL with parameters in the ads of your advertisers and agencies, you can send requests to the impression tracking URL when delivering the ads.
 
-Tracking Parameters for YDN API are as follows.<br>
+Tracking Parameters for Display Ads API are as follows.<br>
 <br>
 
 Parameter | Description | URL Format   
@@ -17,7 +17,10 @@ ifaSha1 | Returns Hash (sha1) of Ad identifier.<br>Tracks Hash (sha1) of IFA (Ad
 ifaMd5 | Returns Hash (md5) of Ad identifier.<br>Tracks Hash (md5) of IFA (Ad identifier).<br> - For iOS: IDFA<br> - For Android OS: AdvertisingID| http://www.example.com/?ifaMd5={ifaMd5}
 ifa | Returns Ad identifier.<br>Tracks IFA (Ad identifier).<br> - For iOS: IDFA<br> - For Android OS: AdvertisingID| http://www.example.com/?ifa={ifa}
 ifa | Returns Ad identifier.<br>Tracks IFA (Ad identifier).<br> - For iOS: IDFA<br> - For Android OS: AdvertisingID| http://www.example.com/?ifa={ifa}
-__timestamp__ | Parameters for Cash Busting. | http://www.example.com/?cb=__timestamp__
+ifmobile:[xxxxx] | For the access from smartphones, a unique value (xxxxx) will be added. This option allow you to convert the URL to the one for smartphones and also you can add a parameter. |  https://{ifmobile:m.}xxxxx.co.jp
+ifnotmobile:[xxxxx] | For the access from PC or tablet, a unique value (xxxxx) will be added.This option allow you to convert the URL to the one for PC/tablet and also you can add a parameter. | https://{ifnotmobile:www.}xxxxx.co.jp
+siteid| Returns Inventory ID.| http://xxxxx.co.jp/?siteid={siteid}
+`__timestamp__` | Parameters for Cash Busting. | http://www.example.com/?cb=__timestamp__
 
 ## Notes
-These parameters are available for Display Ads (Auction) and Display Ads (YDN).
+These parameters are available for Display Ads.
