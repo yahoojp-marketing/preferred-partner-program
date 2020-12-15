@@ -10,7 +10,6 @@ creative | Returns Ad ID. | http://www.example.com/?creative={creative}
 media | Returns Media ID.| http://www.example.com/?media={media}
 campaignid | Returns Campaign ID.| http://www.example.com/?campaignid={campaignid}
 adgroupid | Returns Ad Group ID.| http://www.example.com/?adgroupid={adgroupid}
-account | Returns Account ID.| http://www.example.com/?account={account}
 device | Returns the device type.<br>Returns the elements as follows:<br> -DESKTOP<br> -WAP_MOBILE<br> -SMARTPHONE<br> -TABLET<br>* Returns NONE, if cannot be identified. | http://www.example.com/?device={device}
 os | Returns the OS type.<br>Returns the elements as follows:<br> -IOS<br> -ANDROID<br>* Returns NONE, if cannot be identified. | http://www.example.com/?os={os}
 isApp | Returns the App type.<br>Tracks if delivered to iOS apps and/or Android apps<br> - true: delivered to iOS apps and/or Android apps<br> - false: not delivered to iOS apps or Android apps | http://www.example.com/?isApp={isApp}
