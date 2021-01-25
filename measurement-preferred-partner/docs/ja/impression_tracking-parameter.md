@@ -10,6 +10,7 @@ creative | 広告IDです。 | http://xxxxx.co.jp/?creative={creative}
 media | メディアIDです。|http://xxxxx.co.jp/?media={media}
 campaignid | キャンペーンIDです。| http://xxxxx.co.jp/?campaignid={campaignid}
 adgroupid | 広告グループIDです。| http://xxxxx.co.jp/?adgroupid={adgroupid}
+account| アカウントIDです。  | http://xxxxx.co.jp/?account={account}
 device | デバイスの種類です。<br>以下の内容が返却されます。<br>・DESKTOP<br>・WAP_MOBILE<br>・SMARTPHONE<br>・TABLET<br>※識別できない場合は、NONEとなります。 | http://xxxxx.co.jp/?device={device}
 os | OSの種類です。<br>以下の内容が返却されます。<br>・IOS<br>・ANDROID<br>※識別できない場合は、NONEとなります。 | http://xxxxx.co.jp/?os={os}
 isApp | iOSアプリ、Androidアプリに配信されたかを表示します。<br>・iOSアプリ、Androidアプリの場合：true<br>・上記以外の場合：false | http://xxxxx.co.jp/?isApp={isApp}
