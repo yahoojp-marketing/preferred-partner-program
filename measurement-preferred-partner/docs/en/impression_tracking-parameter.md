@@ -21,6 +21,9 @@ ifmobile:[xxxxx] | For the access from smartphones, a unique value (xxxxx) will 
 ifnotmobile:[xxxxx] | For the access from PC or tablet, a unique value (xxxxx) will be added.This option allow you to convert the URL to the one for PC/tablet and also you can add a parameter. | https://{ifnotmobile:www.}xxxxx.co.jp
 siteid| Returns Inventory ID.| http://xxxxx.co.jp/?siteid={siteid}
 `__timestamp__` | Parameters for Cash Busting. | http://www.example.com/?cb=__timestamp__
+useragent | Returns device user agent. | http://xxxxx.co.jp/?useragent={useragent}
+ipaddress | Returns device IP address. | http://xxxxx.co.jp/?ipaddress={ipaddress}
+language | Returns devive language setting and locale. | http://xxxxx.co.jp/?language={language}
 
 ## Notes
 These parameters are available for Display Ads.
