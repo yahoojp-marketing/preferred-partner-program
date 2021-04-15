@@ -21,6 +21,9 @@ ifmobile:[任意の値] | スマートフォンからアクセスした際に、
 ifnotmobile:[任意の値]} | PC・タブレットなどスマートフォン以外の端末からアクセスした際に、任意の値を付加します。これにより、PC・タブレット向けURLへの変換やパラメータの追加などが可能です。 | https://{ifnotmobile:www.}xxxxx.co.jp
 siteid| 広告枠IDです。| http://xxxxx.co.jp/?siteid={siteid}
 `__timestamp__` | キャッシュバスティング用のパラメータです。 | http://xxxxx.co.jp/?cb=__timestamp__
+useragent | 端末のユーザーエージェントです。 | http://xxxxx.co.jp/?useragent={useragent}
+ipaddress | 端末のIPアドレスです。 | http://xxxxx.co.jp/?ipaddress={ipaddress}
+language | 端末の言語設定です。 | http://xxxxx.co.jp/?language={language}
 
 ## 補足
 上記パラメータはディスプレイ広告で利用可能です。
