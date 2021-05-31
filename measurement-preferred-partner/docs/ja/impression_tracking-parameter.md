@@ -24,6 +24,7 @@ siteid| 広告枠IDです。| http://xxxxx.co.jp/?siteid={siteid}
 useragent | 端末のユーザーエージェントです。 | http://xxxxx.co.jp/?useragent={useragent}
 ipaddress | 端末のIPアドレスです。 | http://xxxxx.co.jp/?ipaddress={ipaddress}
 language | 端末の言語設定です。 | http://xxxxx.co.jp/?language={language}
+deviceAppType |広告配信面が 「アプリ」か「ウェブ」かを判別できます。以下の内容が返却されます。<br>・web<br>・app <br>※「アプリ訴求」のキャンペーン目的で指定できます。<br>※アプリインストール測定連携をしている場合のみ指定できます。 | http://xxxxx.co.jp/?deviceAppType={deviceAppType}
 
 ## 補足
 上記パラメータはディスプレイ広告で利用可能です。

@@ -23,6 +23,8 @@ siteid| Returns Inventory ID.| http://xxxxx.co.jp/?siteid={siteid}
 useragent | Returns device user agent. | http://xxxxx.co.jp/?useragent={useragent}
 ipaddress | Returns device IP address. | http://xxxxx.co.jp/?ipaddress={ipaddress}
 language | Returns devive language setting and locale. | http://xxxxx.co.jp/?language={language}
+deviceAppType | You can identify the ad placement "App" or "Web."<br>Returns the elements as follows:<br> -web<br> -app<br>*Setting the campaign goal "app promotion" is available on Display Ads (Auction).<br>*Available only when using the tracking tool linked to Display Ads. | http://xxxxx.co.jp/?deviceAppType={deviceAppType}
+
 
 ## Notes
 These parameters are available for Display Ads.
