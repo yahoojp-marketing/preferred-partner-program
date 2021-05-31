@@ -1,6 +1,6 @@
 # [ディスプレイ広告] リンク先URL利用可能パラメータ一覧
 広告の遷移先として設定するリンク先URLに動的に変換されるパラメータを利用できます。<br>
-インプレッションビーコンURLに付与可能なパラメーターは、以下のとおりです。
+リンク先URLに付与可能なパラメーターは、以下のとおりです。
 
 
 
@@ -23,7 +23,8 @@ siteid| 広告枠IDです。| http://xxxxx.co.jp/?siteid={siteid}
 `__timestamp__` | キャッシュバスティング用のパラメータです。 | http://xxxxx.co.jp/?cb=__timestamp__
 useragent | 端末のユーザーエージェントです。 | http://xxxxx.co.jp/?useragent={useragent}
 ipaddress | 端末のIPアドレスです。 | http://xxxxx.co.jp/?ipaddress={ipaddress}
-language | 端末の言語設定です。 | http://xxxxx.co.jp/?language={language}
+language | 端末の言語設定です。 | http://xxxxx.co.jp/?language={language
+deviceAppType |広告配信面が 「アプリ」か「ウェブ」かを判別できます。以下の内容が返却されます。<br>・web<br>・app <br>※「アプリ訴求」のキャンペーン目的で指定できます。<br>※アプリインストール測定連携をしている場合のみ指定できます。 | http://xxxxx.co.jp/?deviceAppType={deviceAppType}
 
 ## 補足
 上記パラメータはディスプレイ広告で利用可能です。
